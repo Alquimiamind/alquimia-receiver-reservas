@@ -1,0 +1,25 @@
+{
+  "name": "alquimia-receiver-reservas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Receptor desechable — instala el paquete certificado sin monorepo ALQUIMIA",
+  "scripts": {
+    "verify": "node scripts/verify-delivery.mjs",
+    "prepare:vendor": "node scripts/prepare-vendor.mjs",
+    "install:module": "node scripts/install-module.mjs",
+    "test": "vitest run",
+    "start": "node src/server.mjs"
+  },
+  "dependencies": {
+    "@alquimia/module-reservas": "file:./vendor/module-reservas",
+    "hono": "^4.8.5",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
