@@ -1,0 +1,11 @@
+{
+  "module_slug": "reservas-agenda",
+  "package_name": "@alquimia/module-reservas",
+  "package_version": "0.1.0",
+  "tarball": "alquimia-module-reservas-0.1.0.tar.gz",
+  "artifact_sha256": "aa18c33e02b28db3e46555869cfe7770fb48286d96c4945a486361c9fee7524f",
+  "tarball_sha256": "bfc944782c805ba617511b6eb4c080e8b3ef5dc3a9440e3b0aa01c738c217e06",
+  "source_commit": "40d26064f3130d66469e293e200df7877db3b943",
+  "alquimia_origin": "Alquimiamind/alquimia",
+  "delivered_at": "2026-10-12T09:03:07.282Z"
+}
