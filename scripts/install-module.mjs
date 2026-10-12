@@ -9,16 +9,9 @@ import { fileURLToPath } from "node:url";
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 async function main() {
-  execSync("node scripts/verify-delivery.mjs", { cwd: root, stdio: "inherit" });
-  const delivery = JSON.parse(await readFile(path.join(root, "factory-delivery.json"), "utf8"));
+  execSync("node scripts/prepare-vendor.mjs", { cwd: root, stdio: "inherit" });
   const manifest = JSON.parse(await readFile(path.join(root, "package-manifest.json"), "utf8"));
   const vendor = path.join(root, "vendor/module-reservas");
-  await rm(vendor, { recursive: true, force: true });
-  await mkdir(vendor, { recursive: true });
-  execSync(
-    `tar xzf ${JSON.stringify(path.join(root, delivery.tarball))} -C ${JSON.stringify(vendor)}`,
-    { stdio: "inherit", shell: true }
-  );
   const databaseUrl = process.env.DATABASE_URL?.trim();
   if (!databaseUrl) {
     console.error("INSTALL_FAIL:missing_DATABASE_URL");

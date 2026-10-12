@@ -29,6 +29,8 @@ jobs:
         with:
           node-version: "20"
           cache: npm
+      - name: Extraer paquete certificado (vendor)
+        run: node scripts/prepare-vendor.mjs
       - run: npm ci
       - name: Verificar entrega certificada
         run: npm run verify

@@ -6,6 +6,7 @@
   "description": "Receptor desechable — instala el paquete certificado sin monorepo ALQUIMIA",
   "scripts": {
     "verify": "node scripts/verify-delivery.mjs",
+    "prepare:vendor": "node scripts/prepare-vendor.mjs",
     "install:module": "node scripts/install-module.mjs",
     "test": "vitest run",
     "start": "node src/server.mjs"

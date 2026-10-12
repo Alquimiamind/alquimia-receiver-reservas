@@ -18,6 +18,7 @@ Instala el paquete certificado `@alquimia/module-reservas` **sin** el monorepo A
 
 ```bash
 cp .env.example .env   # editar DATABASE_URL
+npm run prepare:vendor
 npm ci
 npm run verify
 npm run install:module
