@@ -1,0 +1,135 @@
+{
+  "package_name": "@alquimia/module-reservas",
+  "version": "0.1.0",
+  "module_slug": "reservas-agenda",
+  "built_at": "2026-10-12T09:00:02.450Z",
+  "files": [
+    {
+      "path": "API.md",
+      "sha256": "da3d93f0da91f590242398cda71089064c7134d7649a6d3d77a422a4b04d2b16"
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "354387f4885fbe3046d234b32db6a98fd530a14b9ed28199e84f97e686df84e9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "75fcc57fea4382087296bf434aa9f5d5951b013443f40018a741c12025099ac6"
+    },
+    {
+      "path": "dist/availability.d.ts",
+      "sha256": "641e08481da0dfc567ddedf483ce801ca2e93c21666a65ae7db961df8adf53cc"
+    },
+    {
+      "path": "dist/availability.js",
+      "sha256": "bbdc2a7ede445e76b98e1a013d7c822f63a1426e544ca06a39df97359ec6eb4a"
+    },
+    {
+      "path": "dist/index.d.ts",
+      "sha256": "32c11d75e427764ca38c2fe9d7320032d4b86c242fda28f30e4704f8abf9f0a5"
+    },
+    {
+      "path": "dist/index.js",
+      "sha256": "cce4da26b942ce90242c157335eb37317b1210530f31dff9b6e2dd69d872c227"
+    },
+    {
+      "path": "dist/meta.d.ts",
+      "sha256": "ffc4cf8ae3a851f88d907b0a64a89559ff83a07a61bd7f63d571b6e24c7def4d"
+    },
+    {
+      "path": "dist/meta.js",
+      "sha256": "87478b8e59a7acc2c027b8f6ec13a4f9e2e81a7cce4112189c9621c00c6fa77e"
+    },
+    {
+      "path": "dist/pg-entry.d.ts",
+      "sha256": "886bed8474dc3f8f998e861d9e7879cffdce1d54fd425ca9b4988cfc39c86a25"
+    },
+    {
+      "path": "dist/pg-entry.js",
+      "sha256": "7bdd3b6605843f83da93e5b746d739bb298907398ff397495aeb3b02a1475371"
+    },
+    {
+      "path": "dist/postgrest.d.ts",
+      "sha256": "4774bd6a56c6bfe4a51b9ebdc9642d563cb04274d7006101a3d7d95ca8077efa"
+    },
+    {
+      "path": "dist/postgrest.js",
+      "sha256": "2c612ac41fef834140e21afaa7034dcdb8947c29db2611ad7998f45d9b006789"
+    },
+    {
+      "path": "dist/routes-core.d.ts",
+      "sha256": "f6a9f863f526deaf1e22e38d8173f641427b3c18f6db288d1db79dbca043a456"
+    },
+    {
+      "path": "dist/routes-core.js",
+      "sha256": "6318d379fe2c4f15cb9015637d2185c162362ba90a828acecae6b670b981f76e"
+    },
+    {
+      "path": "dist/routes-pg.d.ts",
+      "sha256": "1d49a19a3c5529c7648ad4ae221ad3904a123573ebf8c97058c1f5bd8edf55fa"
+    },
+    {
+      "path": "dist/routes-pg.js",
+      "sha256": "118ba6eacb7b5a4a36297ab1401602bb906a2915e6bb0e12068711db0cd09824"
+    },
+    {
+      "path": "dist/routes.d.ts",
+      "sha256": "1e29ebd08d87718c30c66def3701230a1f46c22b73afb2ae7d0e0d68ac3562ff"
+    },
+    {
+      "path": "dist/routes.js",
+      "sha256": "ee6d5a550d5ff4238df7debce49580ba03aa16fbafdda1d28adf680992fc4900"
+    },
+    {
+      "path": "dist/store-pg.d.ts",
+      "sha256": "cc8f4c0f58453644d94d1211acf936e72ced40d69cc096930987c6f6f6804a0f"
+    },
+    {
+      "path": "dist/store-pg.js",
+      "sha256": "d81d8c6f66bcad2583cfe9aec32b31af1e4e38c8d266b2a24e2e836f60747300"
+    },
+    {
+      "path": "dist/store-postgrest.d.ts",
+      "sha256": "920502de40b536d06caeb12d3cd8f3f09b8957b7d96cec74dd33adc85c772b7a"
+    },
+    {
+      "path": "dist/store-postgrest.js",
+      "sha256": "16f7dd41ae9b17fcb08f36e3a18201fa697a3c90b48917f96c0439de9226e7f3"
+    },
+    {
+      "path": "dist/store.d.ts",
+      "sha256": "bbdd46b9faf1e28bfba2e7f546ac6220936ce593646dc23d4033665f1980a0e4"
+    },
+    {
+      "path": "dist/store.js",
+      "sha256": "2671f3db0dd02877b21638cdb76518557a5a026951dbc80fcfe5398bbe4cda81"
+    },
+    {
+      "path": "dist/types.d.ts",
+      "sha256": "92701768ec771937964c53af470f7a97ab50604b535930a827e17560dfcdf886"
+    },
+    {
+      "path": "dist/types.js",
+      "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+    },
+    {
+      "path": "install/install.mjs",
+      "sha256": "93ec7163ebbb820291646294120449335ce8ce45a2666c2c8618d383ac5dbaa5"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "18fe5eeb7ec97ca7ded660fa329e1aba9a6500ecaa13e90cc0aadcb3b2b12e68"
+    },
+    {
+      "path": "migrations/001_mod_reservas_schema.sql",
+      "sha256": "df6c09e38111ed2d754a1b8c398beaafef19093b79032ddbd44370afc3be6217"
+    },
+    {
+      "path": "package.publish.json",
+      "sha256": "584bec2f686b0689fff5b8d88f61326b5d60d6b39b97b2184b57177d51928bde"
+    }
+  ],
+  "artifact_sha256": "78cf5a31ea8f4f414691ae6430b45b4f55cf30e23fd59b2780c3c84a4b193436",
+  "tarball": "alquimia-module-reservas-0.1.0.tar.gz",
+  "tarball_sha256": "2afecf22832c3e4ac0c918bb9c1d4e4772919ae01a6db1c1c51452e50f295f8a"
+}
