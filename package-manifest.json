@@ -1,0 +1,55 @@
+{
+  "package_name": "@alquimia/module-reservas",
+  "version": "0.1.0",
+  "module_slug": "reservas-agenda",
+  "built_at": "2026-10-12T08:55:41.320Z",
+  "files": [
+    {
+      "path": "API.md",
+      "sha256": "da3d93f0da91f590242398cda71089064c7134d7649a6d3d77a422a4b04d2b16"
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "354387f4885fbe3046d234b32db6a98fd530a14b9ed28199e84f97e686df84e9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "75fcc57fea4382087296bf434aa9f5d5951b013443f40018a741c12025099ac6"
+    },
+    {
+      "path": "dist/index.d.ts",
+      "sha256": "32c11d75e427764ca38c2fe9d7320032d4b86c242fda28f30e4704f8abf9f0a5"
+    },
+    {
+      "path": "dist/index.js",
+      "sha256": "cce4da26b942ce90242c157335eb37317b1210530f31dff9b6e2dd69d872c227"
+    },
+    {
+      "path": "dist/pg-entry.d.ts",
+      "sha256": "886bed8474dc3f8f998e861d9e7879cffdce1d54fd425ca9b4988cfc39c86a25"
+    },
+    {
+      "path": "dist/pg-entry.js",
+      "sha256": "7bdd3b6605843f83da93e5b746d739bb298907398ff397495aeb3b02a1475371"
+    },
+    {
+      "path": "install/install.mjs",
+      "sha256": "93ec7163ebbb820291646294120449335ce8ce45a2666c2c8618d383ac5dbaa5"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "18fe5eeb7ec97ca7ded660fa329e1aba9a6500ecaa13e90cc0aadcb3b2b12e68"
+    },
+    {
+      "path": "migrations/001_mod_reservas_schema.sql",
+      "sha256": "df6c09e38111ed2d754a1b8c398beaafef19093b79032ddbd44370afc3be6217"
+    },
+    {
+      "path": "package.json",
+      "sha256": "6c579752a9f0bbd0d481d8b03e5fb3bcecad52d82625eded8815405a5df7568f"
+    }
+  ],
+  "artifact_sha256": "25583c6722d3bb5b049fa7cd0ebe3998bbbe3678d1efd619b5556de1ddc905b6",
+  "tarball": "alquimia-module-reservas-0.1.0.tar.gz",
+  "tarball_sha256": "14934995df436c1d5e1b15a8a71b8fe7902c3908022decdb6ec452b177e50706"
+}
